@@ -7,6 +7,8 @@ then
 fi
 export_folder=/tmp
 export_file=${export_folder}/`echo ${term} | sed  "s/[^a-z]/_/g"`.qs
+
+# Find the term under current directory.
 grep -i -r "${term}" `pwd` > ${export_file}
 
 echo 'Search result saved to file:' ${export_file}
