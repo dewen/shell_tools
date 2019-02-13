@@ -1,7 +1,7 @@
 # shell_tools
 Util tools to help development, i.e. search string, find files.
 
-# Usages
+# Usage
 
 - Create ~/bin folder
 - Add ~/bin to PATH in .bash_profile
